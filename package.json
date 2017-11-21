@@ -1,0 +1,11 @@
+{
+  "name": "redis-flushall-forever",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
