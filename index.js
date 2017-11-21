@@ -2,7 +2,7 @@ var redis = require("redis");
 
 //Get server name from command args
 const HOST = process.argv[2] | 'redis://localhost';
-const INTERVAL = process.argv[3] | 500; //500 milliseconds
+const INTERVAL = process.argv[3] | 200; //200 milliseconds
 
 client = redis.createClient(HOST);
 
