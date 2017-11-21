@@ -1,4 +1,4 @@
-var redis = require("redis");
+const redis = require("redis");
 
 //Get server name from command args
 const HOST = process.argv[2] | 'redis://localhost';
